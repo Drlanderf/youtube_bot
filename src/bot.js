@@ -1,2 +1,2 @@
 //ceci est mon bot
-console.log("Hello World").catch(console.error);
+console.log("Hello World");
