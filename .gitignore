@@ -2,3 +2,4 @@
 .idea
 .release-it.json
 .env
+.prettierrc
