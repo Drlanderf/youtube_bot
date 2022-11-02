@@ -18,6 +18,10 @@ const client = new Client({
 client.commands = new Collection();
 client.commandArray = [];
 
+console.log(`o--------------------------------------------o`);
+console.log(`|           Thanks to use my bot             |`);
+console.log(`o--------------------------------------------o`);
+
 const functionFolders = fs.readdirSync(`./src/functions`);
 for (const folder of functionFolders) {
     const functionFiles = fs
@@ -28,5 +32,4 @@ for (const folder of functionFolders) {
 }
 
 client.handleEvents();
-client.handleCommands();
 client.login(myToken).then();
